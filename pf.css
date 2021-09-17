@@ -1,0 +1,847 @@
+*{
+	margin:0;
+	padding:0;
+	font-size:15px;
+	font-family:arial;
+}
+img{
+	width:100%;
+	max-width:100%;
+	height:100%;
+	max-height:100%;
+}
+div{
+	overflow:hidden;
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	
+	
+}
+section.main_container {
+    width: 100%;
+    margin: 0px 0px 95px 0px;
+    border-bottom: 1px solid #00000014;
+    overflow: hidden;
+    padding-bottom: 118px;
+}
+.logo_nav {
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #397fa0;
+}
+.animation-space {
+    width: 970px;
+    height: 135px;
+    overflow: hidden;
+    margin: 0 auto;
+    background-image: url(img/px-fun-man-person-2361598-image.jpg);
+    transform: translate(10px, 10px);
+    left: 50%;
+    top: 50%;
+    line-height: 195px;
+    padding-bottom: 299px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px #278ddc;
+    animation: slider 12s infinite linear;
+}
+@keyframes slider{
+	0%{ background-image: url(img/px-fun-man-person-2361598-image.jpg); }
+	35%{ background-image: url(img/px-action-athlete-athletes-848618-image.jpg); }
+	75%{ background-image: url(img/px-beach-daylight-fun-1430675-image.jpg); }
+}
+.logo-container {
+    width: 175px;
+    
+    overflow: hidden;
+    line-height: 55px;
+    float: left;
+}
+.first_p {
+    float: left;
+    width: 33px;
+    overflow: hidden;
+}
+.first_p.a {
+    display: block;
+    text-decoration: none;
+}
+.first_p h1 {
+    font-size: 20px;
+    color: #1bc4da;
+}
+.second_p {
+    overflow: hidden;
+    width: 60px;
+    float: left;
+    margin: 0px 2px 4px 3px;
+    padding-top: 2px;
+}
+.first_p a {
+    text-decoration: none;
+    display: block;
+}
+.second_p big {
+    display: flex;
+    font-size: 18px;
+    color: #295256;
+    margin-bottom: 5px;
+}
+nav.nav-container {
+    width: 433px;
+    float: left;
+    overflow: hidden;
+    line-height: 61px;
+    margin-left: 547px;
+}
+ul.ul-container {
+    list-style: none;
+}
+ul.ul-container li {
+    float: left;
+}
+ul.ul-container a {
+    display: block;
+    font-size: 20px;
+    margin-left: 26px;
+    text-decoration: none;
+    color: #aac2c5;
+}
+button.btn {
+    position: relative;
+    padding: 10px 8px;
+    background: #175573;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    box-shadow: 1px 2px 10px 5px #6d91ad;
+}
+button.btn::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background: #e42e2e;
+}
+button.btn-center::after {
+    transform: scale(0, 1);
+    transition: transform 0.5s ease;
+}
+button.btn-center:hover::after {
+    transform: scale(1,1);
+}
+.first_p a:hover {
+    text-decoration: underline;
+}
+.first_p h1:hover {
+    font-size: 25px;
+    background-color: #cbcfd0;
+    color: #89b5bb;
+    text-shadow: 1px 2px 3px #c31717;
+}
+.second_p big:hover {
+    font-size: 22px;
+    text-shadow: 1px 2px 3px #a51515;
+}
+ul.ul-container a:hover {
+    color: #bb112a;
+	text-decoration:underline;
+}
+.ful-contain {
+    width: 970px;
+    background-image: url(img/my_img.jpg);
+    display: flex;
+    background-size: 83% 152%;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px 45px 25px 10px;
+    margin: auto;
+}
+.back-contain {
+    overflow: hidden;
+}
+.about-contain {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+.about-contain h1 {
+    display: block;
+    font-size: 30px;
+    color: rgb(177, 208, 212);
+    text-decoration: underline;
+}
+.about-part {
+    width: 325px;
+    float: left;
+    margin: 20px 0px 83px 56px;
+    overflow: hidden;
+}
+.name-part {
+    width: 100%;
+    overflow: hidden;
+    margin: 25px;
+}
+.name-part h3 {
+    display: block;
+    font-size: 24px;
+    width: 173px;
+    color: rgb(162, 204, 210);
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(194, 206, 212);
+}
+.name-part big {
+    display: flex;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.about-container {
+    float: left;
+    margin: 19px 0px 0px 250px;
+    overflow: hidden;
+}
+.performanc {
+    overflow: hidden;
+    position: unset;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(img/fantasy-6403406_640.jpg);
+    background-repeat: no-repeat;
+    background-size: 1402px;
+   
+}
+.passion {
+    overflow: hidden;
+    width: 970px;
+    margin: auto;
+}
+
+
+.start-page {
+    overflow: hidden;
+    width: 100%;
+    margin: 50px 11px;
+}
+.new-page {
+    overflow: hidden;
+    width: 228px;
+    float: left;
+    margin: 27px 30px;
+    padding: 87px 0px;
+    display: block;
+    position: relative;
+    background: #c7d6b1;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 1px 2px 10px 5px #446fa2;
+}
+.new-page:hover {
+    background: rgb(255,255,128);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.cercle {
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+    padding: 0px 38px;
+}
+.note{
+	display: block;
+    font-size: 24px;
+    color: #858a7c;
+    margin: 7px 0px;
+    
+}
+.cercle b {
+    display: block;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.experience-contain {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.knowledge-contain {
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    outline: none;
+    padding: 15px;
+    background-color: #f7f9fb;
+    box-shadow: 1px 2px 10px 3px #262a2d;
+}
+.headline {
+    overflow: hidden;
+    width: 218px;
+    margin: 15px 89px;
+    border-bottom: 1px solid black;
+}
+.headline h1 {
+    display: block;
+    font-weight: bolder;
+    line-height: 33px;
+    font-size: 20px;
+}
+.paragraph {
+    width: 400px;
+    overflow: hidden;
+}
+.paragraph p {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 5px;
+}
+.about-webdesigne {
+    overflow: hidden;
+    width: 1039px;
+    height: 100%;
+    margin: auto;
+}
+.html-codding {
+    overflow: hidden;
+    width: 255px;
+    float: left;
+    margin: 15px 25px;
+    background-color: #f7f9fb;
+    padding: 20px;
+    box-shadow: 1px 2px 10px 3px #575a5c;
+}
+.ikon-shafe {
+    width: 100px;
+    text-align: center;
+    margin: 15px 79px;
+    padding: 10px 0px;
+}
+i.fas.fa-adjust {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffa41e;
+}
+.headline-shafe {
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+    margin: 20px 30px;
+    border-bottom: 1px solid #ccc6c6;
+}
+.headline-shafe h1 {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.paragraph-shafe {
+    overflow: hidden;
+    width: 160px;
+    text-align: center;
+    margin: 10px 46px;
+}
+.paragraph-shafe p {
+    display: block;
+    font-weight: lighter;
+    font-size: 21px;
+}
+i.fas.fa-clone {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffa41e;
+}
+i.far.fa-copy {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffa41e;
+}
+.depend-contain {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 90px 0px;
+}
+.here-contain {
+    overflow: hidden;
+    width: 200px;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid #ccc6c6;
+    text-align: center;
+    margin-top: 25px;
+}
+.here-contain i {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+.depend-contain {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(27,26,31,2);
+}
+.working-system {
+    overflow: hidden;
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+}
+.working-system h1 {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+}
+.working-style {
+    width: 970px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.open-style {
+    width: 211px;
+    overflow: hidden;
+    float: left;
+    margin: 27px 15px;
+}
+.alpha-style {
+    overflow: hidden;
+    width: 75px;
+    margin: 22px 69px;
+}
+.alpha-style h1 {
+    display: block;
+    font-weight: bolder;
+    font-size: 83px;
+    color: white;
+    text-shadow: 1px 2px 6px #727576;
+}
+.describe-style {
+    width: 144px;
+    overflow: hidden;
+    margin: 15px 34px;
+    padding: 13px 0px;
+}
+.describe-style p {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+.alpha-style h1:hover {
+    color: #6837bf;
+    font-size: 90px;
+    transition: 0.5s ease;
+    transform: rotate(50deg);
+	transition: transform 0.5s ease;
+}
+.experience-contain:hover {
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.html-codding:hover {
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image-contain {
+    overflow: hidden;
+    width: 970px;
+    margin: 0 auto;
+}
+.image-space {
+    overflow: hidden;
+    width: 100%;
+}
+.image1 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/art-1478831_640.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image2 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/industry-2692459_640.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image3 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/startup-594127_640.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image4 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/px-action-athlete-athletes-848618-image.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image5 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/fantasy-6403406_640.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image6 {
+    overflow: hidden;
+    width: 300px;
+    background-image: url(img/px-action-athlete-athletes-848618-image.jpg);
+    padding: 32px 0px;
+    background-repeat: no-repeat;
+    background-position: 12% 20%;
+    height: 162px;
+    box-shadow: 1px 2px 10px 3px #7d7f81;
+    float: left;
+    margin: 30px 10px;
+}
+.image1 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image2 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image3 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image4 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image5 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image6 h1 {
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 127px 0px;
+    color: wheat;
+}
+.image1:hover {
+    background: rgb(255, 255, 128);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image2:hover {
+    background: rgba(30,25,25,0.85);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image3:hover {
+    background: rgba(30,25,25,0.85);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image4:hover {
+    background: rgba(30,25,25,0.85);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image5:hover {
+    background: rgba(30,25,25,0.85);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+.image6:hover {
+    background: rgba(30,25,25,0.85);
+    transform: translate(10px, 10px);
+    transition: transform 0.5s ease;
+}
+section.main_contain {
+    width: 100%;
+    margin: 0px 0px 95px 0px;
+    border-bottom: 1px solid #00000014;
+    overflow: hidden;
+    padding-bottom: 118px;
+}
+.ful-contain {
+    width: 970px;
+    overflow: hidden;
+    background-image: url(img/my_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px 45px 25px 10px;
+    margin: auto;
+    display: flex;
+    background-size: 83% 152%;
+}
+.back-contain{
+	overflow:hidden;
+}
+.about-contain {
+    width: 100%;
+    overflow: hidden;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    text-align: center;
+}
+.about-contain h1 {
+    display: block;
+    font-size: 30px;
+    color: #b1d0d4;
+    text-decoration: underline;
+}
+.about-part {
+    width: 325px;
+    margin: 20px 0px 83px 56px;
+    float: left;
+    overflow: hidden;
+}
+.name-part {
+    width: 100%;
+    overflow: hidden;
+    margin: 25px 25px;
+}
+.name-part h3 {
+    display: block;
+    font-size: 24px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #c2ced4;
+    width: 173px;
+    color: #a2ccd2;
+}
+.name-part big {
+    display: flex;
+    margin-top: 10px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+.about-container {
+    float: left;
+    margin: 19px 0px 0px 259px;
+	overflow: hidden;
+}
+.about-container {
+    float: left;
+    margin: 19px 0px 0px 250px;
+	overflow: hidden;
+}
+
+footer.footer-container {
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+}
+.main-contain {
+    width: 1170px;
+    margin: 0 auto;
+	overflow: hidden;
+}
+.first-contain {
+    width: 250px;
+    overflow: hidden;
+    padding: 57px 26px;
+    float: left;
+}
+.head-contain {
+    width: 180px;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    overflow: hidden;
+}
+.head-contain h1 {
+    display: block;
+    font-size: 19px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+    color: #ddcef7;
+}
+.head-contain h1 {
+    display: block;
+    font-size: 24px;
+    padding-bottom: 1px;
+    border-bottom: 1px solid black;
+    color: #ddcef7;
+}
+.pera-contain {
+    overflow: hidden;
+    width: 170px;
+    margin: 28px 0px;
+}
+.pera-contain p {
+    display: block;
+    font-size: 21px;
+    color: #b0d4ef;
+}
+.second-contain {
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    margin: 55px 50px 73px 25px;
+}
+i.fas.fa-arrow-right {
+    font-size: 25px;
+    color: #6837bf;
+    margin-bottom: 40px;
+}
+i.fas.fa-arrow-right h4 {
+    display: block;
+    font-size: 20px;
+    color: #ddcef7;
+    float: right;
+}
+i.fas.fa-arrow-right h4 {
+    display: block;
+    font-size: 20px;
+    color: #ddcef7;
+    float: right;
+}
+.forth-contain {
+    overflow: hidden;
+    width: 300px;
+    float: left;
+    margin: 52px 30px 80px 25px;
+}
+.nov-add {
+    overflow: hidden;
+    width: 290px;
+}
+i.fas.fa-phone {
+    font-size: 20px;
+    color: #6837bf;
+    margin-bottom: 25px;
+}
+i.fas.fa-phone strong {
+    display: block;
+    float: right;
+    font-size: 28px;
+    color: #dacef7;
+}
+i.fas.fa-envelope-open-text {
+    font-size: 25px;
+    color: #6837bf;
+    margin-bottom: 25px;
+}
+i.fas.fa-envelope-open-text a {
+    display: block;
+    text-decoration: none;
+    float: right;
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #dacef7;
+}
+i.fab.fa-facebook-square {
+    font-size: 25px;
+    color: #6837bf;
+    margin-bottom: 25px;
+}
+i.fab.fa-facebook-square a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: #dbc3f7;
+}
+i.fab.fa-linkedin {
+    font-size: 25px;
+    color: #6837bf;
+    margin-bottom: 25px;
+} 
+i.fab.fa-linkedin a {
+    display: block;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: #dbc3f7;
+}
+section.contain {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
